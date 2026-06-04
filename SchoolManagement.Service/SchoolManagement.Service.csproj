@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolManagement.Model\SchoolManagement.Model.csproj" />
+    <ProjectReference Include="..\SchoolManagement.Store\SchoolManagement.Store.csproj" />
+  </ItemGroup>
+
+</Project>
