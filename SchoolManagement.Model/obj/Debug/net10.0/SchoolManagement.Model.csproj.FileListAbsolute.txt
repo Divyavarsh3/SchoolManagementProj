@@ -1,0 +1,12 @@
+C:\Users\Harini\source\repos\SchoolManagement.Model\bin\Debug\net10.0\SchoolManagement.Model.deps.json
+C:\Users\Harini\source\repos\SchoolManagement.Model\bin\Debug\net10.0\SchoolManagement.Model.dll
+C:\Users\Harini\source\repos\SchoolManagement.Model\bin\Debug\net10.0\SchoolManagement.Model.pdb
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.AssemblyInfoInputs.cache
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.AssemblyInfo.cs
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.csproj.CoreCompileInputs.cache
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.sourcelink.json
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.dll
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\refint\SchoolManagement.Model.dll
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\SchoolManagement.Model.pdb
+C:\Users\Harini\source\repos\SchoolManagement.Model\obj\Debug\net10.0\ref\SchoolManagement.Model.dll
