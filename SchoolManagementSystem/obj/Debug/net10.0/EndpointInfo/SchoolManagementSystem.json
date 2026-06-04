@@ -1,0 +1,16 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "SchoolManagementSystem | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7241"
+    },
+    {
+      "url": "http://localhost:5086"
+    }
+  ],
+  "paths": { }
+}
