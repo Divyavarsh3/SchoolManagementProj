@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SchoolManagement.API</name>
+    </assembly>
+    <members>
+        <member name="T:SchoolManagement.API.Controllers.AuthController">
+            <summary>
+            Handles User Authentication and JWT Token Generation.
+            </summary>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.AuthController.Login(SchoolManagement.Model.DTOs.LoginDto)">
+            <summary>
+            Authenticate user and generate JWT token.
+            </summary>
+            <param name="loginDto">Username and password.</param>
+            <returns>JWT Token.</returns>
+        </member>
+        <member name="T:SchoolManagement.API.Controllers.StudentController">
+            <summary>
+            Handles Student CRUD Operations, Pagination and Filtering.
+            </summary>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.StudentController.GetAll(System.Int32,System.Int32,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            Get all students with pagination and filtering.
+            </summary>
+            <param name="pageNumber">Page number.</param>
+            <param name="pageSize">Number of records per page.</param>
+            <param name="studentName">Filter by student name.</param>
+            <param name="gender">Filter by gender.</param>
+            <param name="classId">Filter by class.</param>
+            <returns>List of students.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.StudentController.GetByGuid(System.Guid)">
+            <summary>
+            Get student details by Guid.
+            </summary>
+            <param name="studentGuid">Student Guid.</param>
+            <returns>Student details.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.StudentController.Create(SchoolManagement.Model.DTOs.StudentCreateDto)">
+            <summary>
+            Create a new student.
+            </summary>
+            <param name="dto">Student information.</param>
+            <returns>Created student.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.StudentController.Update(SchoolManagement.Model.DTOs.StudentUpdateDto)">
+            <summary>
+            Update existing student details.
+            </summary>
+            <param name="dto">Updated student information.</param>
+            <returns>Updated student.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.StudentController.Delete(System.Guid)">
+            <summary>
+            Delete student by Guid.
+            </summary>
+            <param name="studentGuid">Student Guid.</param>
+            <returns>Delete status.</returns>
+        </member>
+        <member name="T:SchoolManagement.API.Controllers.TeacherController">
+            <summary>
+            Handles Teacher CRUD Operations.
+            Accessible only by Admin and Teacher roles.
+            </summary>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.TeacherController.GetAll">
+            <summary>
+            Get all teachers.
+            </summary>
+            <returns>List of teachers.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.TeacherController.GetByGuid(System.Guid)">
+            <summary>
+            Get teacher details by Guid.
+            </summary>
+            <param name="teacherGuid">Teacher Guid.</param>
+            <returns>Teacher details.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.TeacherController.Create(SchoolManagement.Model.DTOs.TeacherCreateDto)">
+            <summary>
+            Create a new teacher.
+            </summary>
+            <param name="dto">Teacher information.</param>
+            <returns>Created teacher.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.TeacherController.Update(SchoolManagement.Model.DTOs.TeacherUpdateDto)">
+            <summary>
+            Update existing teacher details.
+            </summary>
+            <param name="dto">Updated teacher information.</param>
+            <returns>Updated teacher.</returns>
+        </member>
+        <member name="M:SchoolManagement.API.Controllers.TeacherController.Delete(System.Guid)">
+            <summary>
+            Delete teacher by Guid.
+            </summary>
+            <param name="teacherGuid">Teacher Guid.</param>
+            <returns>Delete status.</returns>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>
